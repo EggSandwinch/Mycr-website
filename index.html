@@ -6,7 +6,6 @@
 
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-is/18.2.0/umd/react-is.production.min.js" integrity="sha512-69vv9jhQmV57vnri8OKCU0N5F85/6W1fFSjd349lyC5z7PViFNNCA4qOz12qc4pAcBIEJfCBjSDriy023suLtQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="script.js" defer></script>
 
     <title>My Chemical Romance</title>
@@ -22,10 +21,10 @@
         </a>
         <div class="navbar-links">
             <ul>
-                <li class="shrink"><img src="imgs/mcr.png" alt=""><a href="#">About</a></li>
-                <li class="shrink"><img src="imgs/mcr-logo2.jpg" alt=""><a href="#">Songs</a></li>
-                <li class="shrink"><img src="imgs/mcr-logo3.jpg" alt=""><a href="#">Gallery</a></li>
-                <li class="shrink"><img src="imgs/mcr-logo4.jpg" alt=""><a href="#">More</a></li>
+                <li class="shrink"><img src="imgs/mcr.png" alt=""><a href="#">Home</a></li>
+                <li class="shrink"><img src="imgs/mcr-logo2.jpg" alt=""><a href="#about">About</a></li>
+                <li class="shrink"><img src="imgs/mcr-logo3.jpg" alt=""><a href="#ewan">Songs</a></li>
+                <li class="shrink"><img src="imgs/mcr-logo4.jpg" alt=""><a href="#More">More</a></li>
                 
             </ul>
         </div>
@@ -36,7 +35,7 @@
     </div>  
 
     <div class="about">
-        <h1>About</h1>
+        <h1 id="about">About</h1>
         <p>
             My Chemical Romance is an American rock band from Newark, New Jersey. The band's current lineup consists of lead vocalist Gerard Way, lead guitarist Ray Toro,     rhythm guitarist Frank Iero, and bassist Mikey Way. They are considered one of the most influential rock groups of the 2000s and a major act in the pop-punk and emo genres, despite the band rejecting the latter label.
             Founded in September 2001 by Gerard, Mikey, Toro, and drummer Matt Pelissier (and later joined by Iero), the band signed with Eyeball Records and released their debut album, I Brought You My Bullets, You Brought Me Your Love, in 2002. They signed with Reprise Records the next year and released their major-label debut, Three Cheers for Sweet Revenge, in 2004. Shortly after the album's release, Pelissier was replaced by Bob Bryar. The album was a commercial success, attaining platinum status over a year later.
@@ -78,7 +77,7 @@
 
         <div class="image">
             <img src="imgs/Ray-toro.png" alt="">
-            <div class="content4 c-style">
+            <div class="content4 c-style" >
                 <h2>Ray Toro AKA Jet Star</h2>
                 <p>One of the founding members of the Fabulous Killjoys, most often seen wearing a black jacket with an American flag on the back, a lightning bolt gas helmet and sunglasses</p>
             </div>
@@ -87,7 +86,7 @@
 
     
 
-    <div class="songs">
+    <div class="songs"id="ewan" >
         <h1>Danger Days Album Tracklist</h1>
         <div class="album">
             <img src="imgs/danger-days-album-cover.png" alt="" class="shrink">
@@ -108,34 +107,21 @@
         </div>
        
     </div>
-        <h1>Gallery</h1>
-    <div class="gallery-wrapper">
-
-        <div class="slider_box">
-
-            <div class="slider_controls">
-                <button class="prev"><i class="fa-solid fa-angle-left"></i></button>
+        <h1>Music Videos</h1>
+        <div class="int-wrapper" id="More">
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ms363CODsRs?si=9jTHQKWqdTEz1tFm&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-
-            <div class="container_slider">
-                <div class="slider">
-                    <div class="slide"><img src="imgs/picture-1.png" alt=""></div>
-                    <div class="slide"><img src="imgs/picture-2.png" alt=""></div>
-                    <div class="slide"><img src="imgs/picture-3.png" alt=""></div>
-
-                </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/035w62kubls?si=28O1Wa3B-MoTpHGv&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-
-            <div class="slider_controls">
-                <button class="prev"><i class="fa-solid fa-angle-right"></i></button>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/gWAtsvH76EQ?si=eyao9LarylxZcKf6&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-
         </div>
+        
 
-    </div>
-
-
-    <footer class="footer">
+    <footer class="footer" >
         <div class="container">
             <div class="row">
                 <div class="footer-col">
